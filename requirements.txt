@@ -2,36 +2,35 @@
 # Python 3.10+
 
 # Web Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
 
 # LINE Messaging API
-line-bot-sdk==3.5.1
+line-bot-sdk>=3.5.0
 
 # OpenAI
-openai==1.12.0
+openai>=1.12.0
 
 # Database
-aiosqlite==0.19.0
-sqlalchemy[asyncio]==2.0.25
+aiosqlite>=0.19.0
+sqlalchemy[asyncio]>=2.0.25
 
 # Environment & Config
-python-dotenv==1.0.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
 
 # HTTP Client
-httpx==0.26.0
-aiohttp==3.9.3
+httpx>=0.26.0
 
 # Utilities
-python-dateutil==2.8.2
-pytz==2024.1
+python-dateutil>=2.8.0
+pytz>=2024.1
 
 # Testing
-pytest==8.0.0
-pytest-asyncio==0.23.4
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
 
 # Development
-black==24.1.1
-flake8==7.0.0
+black>=24.0.0
+flake8>=7.0.0
